@@ -63,6 +63,7 @@ public class Robot extends TimedRobot {
     System.out.println("Auto selected: " + m_autoSelected);
 
     m_drivetrain.resetEncoders();
+    m_drivetrain.initDrivetrain();
   }
 
   /** This function is called periodically during autonomous. */
